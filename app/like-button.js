@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 
+// exports a LikeButton component
 export default function LikeButton() {
     const [likes, setLikes] = useState(0);
 
